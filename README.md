@@ -3,7 +3,7 @@
 
 ## 项目截图
 <figure class="third">
-    <img src="http://wx4.sinaimg.cn/mw690/0069H5XJgy1fyd86lddwcj30bg0katct.jpg" width="200"/> <img src="http://wx2.sinaimg.cn/mw690/0069H5XJgy1fyd88jf9dkj30bk0kitbs.jpg" width="200"/> <img src="http://wx4.sinaimg.cn/mw690/0069H5XJgy1fyd88nhf1nj30bg0kaad6.jpg" width="200"/> <img src="http://wx3.sinaimg.cn/mw690/0069H5XJgy1fyd9lf0n9rj30bh0kdjvc.jpg" width="200"/>
+    <img src="http://wx1.sinaimg.cn/mw690/0069H5XJgy1fye4sno1p6j30yg0fk1a2.jpg" />
 </figure>
 
 ------------
@@ -28,20 +28,9 @@
 - 商家实景图片可以左右滑动
 - loaclStorage 缓存商家信息（id、name）
 ## 组件之间的关系
-|——————app.vue
-&emsp;&emsp;|&emsp;&emsp;|————header.vue(头部组件)
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|————star.vue（星星评分组件）
-&emsp;&emsp;|&emsp;&emsp;|————goods.vue（商品组件）
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|————food.vue（商品详情页）
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|————ratingselect.vue（评论内容帅选组件）
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|————carcontrol.vue（增加减少购物组件）
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|————shopcart.vue（购物车组件，办函小球飞入动画）
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|————carcontrol.vue（购买加减图标控件--选中数量返回给父组件goods，goods响应后，重新计算选中数量，将数据发送给购物车组件，）
-&emsp;&emsp;|&emsp;&emsp;|————ratings.vue(评价组件)
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|————star.vue（星星评分组件）
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|————ratingselect.vue（评论内容帅选组件）
-&emsp;&emsp;|&emsp;&emsp;|————seller.vue(商家组件)
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|————star.vue（星星评分组件）
+<figure class="third">
+    <img src="https://wx2.sinaimg.cn/mw690/0069H5XJgy1fye4sfry4wj315u0dkmxz.jpg" />
+</figure>
 ## 项目结构
 - common/---- 文件夹存放的是通用的css和fonts
 - components/---- 文件夹用来存放 Vue 组件
